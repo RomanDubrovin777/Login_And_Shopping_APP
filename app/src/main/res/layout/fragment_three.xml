@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/saveimg"
+    tools:context=".fragments.Fragment_two" >
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        card_view:cardCornerRadius="30dp"
+        android:elevation="20dp"
+        android:background="@drawable/customer_edittext">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+
+            <TextView
+                android:id="@+id/id_reg_frg2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ACCOUNT INFO"
+                android:textAlignment="center"
+                android:textColor="@color/purple"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/email_editView_reg_frg3"
+                android:layout_width="match_parent"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/customer_edittext"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="8dp"
+                android:hint="email"
+                android:padding="16dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                ></TextView>
+
+
+
+            <TextView
+                android:id="@+id/phone_editView_frg3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/customer_edittext"
+                android:drawableLeft="@drawable/baseline_call_24"
+                android:drawablePadding="8dp"
+                android:hint="phone"
+                android:singleLine="true"
+                android:padding="16dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/button_change_info_frg3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/purple"
+                android:text="Change email/password"
+                android:textSize="18sp">
+
+            </Button>
+            <Button
+                android:id="@+id/button_shoppingCart_frg3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/purple"
+                android:text="Your Shopping Cart"
+                android:textSize="18sp">
+
+            </Button>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/frg2_text_email"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:ems="10"-->
+    <!--        android:hint="Enter your email"-->
+    <!--        android:inputType="textEmailAddress"-->
+    <!--        android:textSize="30sp" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/frg2_text_password"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:ems="10"-->
+    <!--        android:hint="Enter your password"-->
+    <!--        android:inputType="textPassword"-->
+    <!--        android:textSize="30sp" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/frg2_text_repassword"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:ems="10"-->
+    <!--        android:hint="Renter your password"-->
+    <!--        android:inputType="textPassword"-->
+    <!--        android:textSize="30sp" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/frg2_text_phone"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:ems="10"-->
+    <!--        android:hint="Enter your phone"-->
+    <!--        android:inputType="phone"-->
+    <!--        android:textSize="30sp" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button_frg2_register"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="register"-->
+    <!--        android:textSize="30sp" />-->
+
+</LinearLayout>

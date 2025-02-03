@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/fragment_four">
+
+    <fragment
+        android:id="@+id/fragment_two"
+        android:name="com.example.login_app.fragments.Fragment_two"
+        android:label="fragment_two"
+        tools:layout="@layout/fragment_two" >
+        <action
+            android:id="@+id/action_fragment_two_to_fragment_four"
+            app:destination="@id/fragment_four" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_three"
+        android:name="com.example.login_app.fragments.Fragment_three"
+        android:label="fragment_three"
+        tools:layout="@layout/fragment_three" >
+        <action
+            android:id="@+id/action_fragment_three_to_fragment_four"
+            app:destination="@id/fragment_four" />
+        <action
+            android:id="@+id/action_fragment_three_to_fragment_two"
+            app:destination="@id/fragment_two" />
+        <action
+            android:id="@+id/action_fragment_three_to_info_Change"
+            app:destination="@id/info_Change" />
+        <action
+            android:id="@+id/action_fragment_three_to_fragment_res"
+            app:destination="@id/fragment_res" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_four"
+        android:name="com.example.login_app.fragments.Fragment_four"
+        android:label="fragment_four"
+        tools:layout="@layout/fragment_four" >
+        <action
+            android:id="@+id/action_fragment_four_to_fragment_two"
+            app:destination="@id/fragment_two" />
+        <action
+            android:id="@+id/action_fragment_four_to_fragment_three"
+            app:destination="@id/fragment_three" />
+    </fragment>
+    <fragment
+        android:id="@+id/info_Change"
+        android:name="com.example.login_app.fragments.Info_Change"
+        android:label="fragment_info__change"
+        tools:layout="@layout/fragment_info__change" />
+    <fragment
+        android:id="@+id/fragment_res"
+        android:name="com.example.login_app.fragments.Fragment_res"
+        android:label="fragment_res"
+        tools:layout="@layout/fragment_res" />
+</navigation>
