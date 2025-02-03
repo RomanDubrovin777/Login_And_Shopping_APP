@@ -43,7 +43,7 @@ This is an Android application that provides a login and shopping cart system us
 
 ## **Screenshots** 📸  
 1) The first screen the user will see is the log in screen (if the user has an account he can log in form here if not he must create an account first)  
-<img src="https://github.com/user-attachments/assets/32e4537b-b43f-452b-9b62-2809c9c178c2" width="200">
+<img src="https://github.com/user-attachments/assets/cc32de52-9f43-4b80-a5af-b77d04fbf81f" width="200">
 
 2) The second screen is the register screen here the user will create his account (which will update the REALTIME DATA BASE)
 <img src="https://github.com/user-attachments/assets/5f3bd9fb-2fc3-4dbc-bfe0-bcad399cc010" width="200">
